@@ -1,0 +1,2920 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://example.com/hot",
+  "type": "object",
+  "properties": {
+    "p1": {
+      "allOf": [
+        {
+          "type": "object"
+        },
+        {
+          "if": {
+            "required": [ "kind" ],
+            "properties": {
+              "kind": {
+                "const": "K1"
+              }
+            }
+          },
+          "then": {
+            "$ref": "#/$defs/Leaf"
+          },
+          "else": {
+            "type": "object",
+            "properties": {
+              "y": {
+                "type": "string"
+              }
+            },
+            "additionalProperties": false
+          }
+        }
+      ]
+    },
+    "p10": {
+      "allOf": [
+        {
+          "type": "object"
+        },
+        {
+          "if": {
+            "required": [ "kind" ],
+            "properties": {
+              "kind": {
+                "const": "K10"
+              }
+            }
+          },
+          "then": {
+            "$ref": "#/$defs/Leaf"
+          },
+          "else": {
+            "type": "object",
+            "properties": {
+              "y": {
+                "type": "string"
+              }
+            },
+            "additionalProperties": false
+          }
+        }
+      ]
+    },
+    "p100": {
+      "allOf": [
+        {
+          "type": "object"
+        },
+        {
+          "if": {
+            "required": [ "kind" ],
+            "properties": {
+              "kind": {
+                "const": "K100"
+              }
+            }
+          },
+          "then": {
+            "$ref": "#/$defs/Leaf"
+          },
+          "else": {
+            "type": "object",
+            "properties": {
+              "y": {
+                "type": "string"
+              }
+            },
+            "additionalProperties": false
+          }
+        }
+      ]
+    },
+    "p11": {
+      "allOf": [
+        {
+          "type": "object"
+        },
+        {
+          "if": {
+            "required": [ "kind" ],
+            "properties": {
+              "kind": {
+                "const": "K11"
+              }
+            }
+          },
+          "then": {
+            "$ref": "#/$defs/Leaf"
+          },
+          "else": {
+            "type": "object",
+            "properties": {
+              "y": {
+                "type": "string"
+              }
+            },
+            "additionalProperties": false
+          }
+        }
+      ]
+    },
+    "p12": {
+      "allOf": [
+        {
+          "type": "object"
+        },
+        {
+          "if": {
+            "required": [ "kind" ],
+            "properties": {
+              "kind": {
+                "const": "K12"
+              }
+            }
+          },
+          "then": {
+            "$ref": "#/$defs/Leaf"
+          },
+          "else": {
+            "type": "object",
+            "properties": {
+              "y": {
+                "type": "string"
+              }
+            },
+            "additionalProperties": false
+          }
+        }
+      ]
+    },
+    "p13": {
+      "allOf": [
+        {
+          "type": "object"
+        },
+        {
+          "if": {
+            "required": [ "kind" ],
+            "properties": {
+              "kind": {
+                "const": "K13"
+              }
+            }
+          },
+          "then": {
+            "$ref": "#/$defs/Leaf"
+          },
+          "else": {
+            "type": "object",
+            "properties": {
+              "y": {
+                "type": "string"
+              }
+            },
+            "additionalProperties": false
+          }
+        }
+      ]
+    },
+    "p14": {
+      "allOf": [
+        {
+          "type": "object"
+        },
+        {
+          "if": {
+            "required": [ "kind" ],
+            "properties": {
+              "kind": {
+                "const": "K14"
+              }
+            }
+          },
+          "then": {
+            "$ref": "#/$defs/Leaf"
+          },
+          "else": {
+            "type": "object",
+            "properties": {
+              "y": {
+                "type": "string"
+              }
+            },
+            "additionalProperties": false
+          }
+        }
+      ]
+    },
+    "p15": {
+      "allOf": [
+        {
+          "type": "object"
+        },
+        {
+          "if": {
+            "required": [ "kind" ],
+            "properties": {
+              "kind": {
+                "const": "K15"
+              }
+            }
+          },
+          "then": {
+            "$ref": "#/$defs/Leaf"
+          },
+          "else": {
+            "type": "object",
+            "properties": {
+              "y": {
+                "type": "string"
+              }
+            },
+            "additionalProperties": false
+          }
+        }
+      ]
+    },
+    "p16": {
+      "allOf": [
+        {
+          "type": "object"
+        },
+        {
+          "if": {
+            "required": [ "kind" ],
+            "properties": {
+              "kind": {
+                "const": "K16"
+              }
+            }
+          },
+          "then": {
+            "$ref": "#/$defs/Leaf"
+          },
+          "else": {
+            "type": "object",
+            "properties": {
+              "y": {
+                "type": "string"
+              }
+            },
+            "additionalProperties": false
+          }
+        }
+      ]
+    },
+    "p17": {
+      "allOf": [
+        {
+          "type": "object"
+        },
+        {
+          "if": {
+            "required": [ "kind" ],
+            "properties": {
+              "kind": {
+                "const": "K17"
+              }
+            }
+          },
+          "then": {
+            "$ref": "#/$defs/Leaf"
+          },
+          "else": {
+            "type": "object",
+            "properties": {
+              "y": {
+                "type": "string"
+              }
+            },
+            "additionalProperties": false
+          }
+        }
+      ]
+    },
+    "p18": {
+      "allOf": [
+        {
+          "type": "object"
+        },
+        {
+          "if": {
+            "required": [ "kind" ],
+            "properties": {
+              "kind": {
+                "const": "K18"
+              }
+            }
+          },
+          "then": {
+            "$ref": "#/$defs/Leaf"
+          },
+          "else": {
+            "type": "object",
+            "properties": {
+              "y": {
+                "type": "string"
+              }
+            },
+            "additionalProperties": false
+          }
+        }
+      ]
+    },
+    "p19": {
+      "allOf": [
+        {
+          "type": "object"
+        },
+        {
+          "if": {
+            "required": [ "kind" ],
+            "properties": {
+              "kind": {
+                "const": "K19"
+              }
+            }
+          },
+          "then": {
+            "$ref": "#/$defs/Leaf"
+          },
+          "else": {
+            "type": "object",
+            "properties": {
+              "y": {
+                "type": "string"
+              }
+            },
+            "additionalProperties": false
+          }
+        }
+      ]
+    },
+    "p2": {
+      "allOf": [
+        {
+          "type": "object"
+        },
+        {
+          "if": {
+            "required": [ "kind" ],
+            "properties": {
+              "kind": {
+                "const": "K2"
+              }
+            }
+          },
+          "then": {
+            "$ref": "#/$defs/Leaf"
+          },
+          "else": {
+            "type": "object",
+            "properties": {
+              "y": {
+                "type": "string"
+              }
+            },
+            "additionalProperties": false
+          }
+        }
+      ]
+    },
+    "p20": {
+      "allOf": [
+        {
+          "type": "object"
+        },
+        {
+          "if": {
+            "required": [ "kind" ],
+            "properties": {
+              "kind": {
+                "const": "K20"
+              }
+            }
+          },
+          "then": {
+            "$ref": "#/$defs/Leaf"
+          },
+          "else": {
+            "type": "object",
+            "properties": {
+              "y": {
+                "type": "string"
+              }
+            },
+            "additionalProperties": false
+          }
+        }
+      ]
+    },
+    "p21": {
+      "allOf": [
+        {
+          "type": "object"
+        },
+        {
+          "if": {
+            "required": [ "kind" ],
+            "properties": {
+              "kind": {
+                "const": "K21"
+              }
+            }
+          },
+          "then": {
+            "$ref": "#/$defs/Leaf"
+          },
+          "else": {
+            "type": "object",
+            "properties": {
+              "y": {
+                "type": "string"
+              }
+            },
+            "additionalProperties": false
+          }
+        }
+      ]
+    },
+    "p22": {
+      "allOf": [
+        {
+          "type": "object"
+        },
+        {
+          "if": {
+            "required": [ "kind" ],
+            "properties": {
+              "kind": {
+                "const": "K22"
+              }
+            }
+          },
+          "then": {
+            "$ref": "#/$defs/Leaf"
+          },
+          "else": {
+            "type": "object",
+            "properties": {
+              "y": {
+                "type": "string"
+              }
+            },
+            "additionalProperties": false
+          }
+        }
+      ]
+    },
+    "p23": {
+      "allOf": [
+        {
+          "type": "object"
+        },
+        {
+          "if": {
+            "required": [ "kind" ],
+            "properties": {
+              "kind": {
+                "const": "K23"
+              }
+            }
+          },
+          "then": {
+            "$ref": "#/$defs/Leaf"
+          },
+          "else": {
+            "type": "object",
+            "properties": {
+              "y": {
+                "type": "string"
+              }
+            },
+            "additionalProperties": false
+          }
+        }
+      ]
+    },
+    "p24": {
+      "allOf": [
+        {
+          "type": "object"
+        },
+        {
+          "if": {
+            "required": [ "kind" ],
+            "properties": {
+              "kind": {
+                "const": "K24"
+              }
+            }
+          },
+          "then": {
+            "$ref": "#/$defs/Leaf"
+          },
+          "else": {
+            "type": "object",
+            "properties": {
+              "y": {
+                "type": "string"
+              }
+            },
+            "additionalProperties": false
+          }
+        }
+      ]
+    },
+    "p25": {
+      "allOf": [
+        {
+          "type": "object"
+        },
+        {
+          "if": {
+            "required": [ "kind" ],
+            "properties": {
+              "kind": {
+                "const": "K25"
+              }
+            }
+          },
+          "then": {
+            "$ref": "#/$defs/Leaf"
+          },
+          "else": {
+            "type": "object",
+            "properties": {
+              "y": {
+                "type": "string"
+              }
+            },
+            "additionalProperties": false
+          }
+        }
+      ]
+    },
+    "p26": {
+      "allOf": [
+        {
+          "type": "object"
+        },
+        {
+          "if": {
+            "required": [ "kind" ],
+            "properties": {
+              "kind": {
+                "const": "K26"
+              }
+            }
+          },
+          "then": {
+            "$ref": "#/$defs/Leaf"
+          },
+          "else": {
+            "type": "object",
+            "properties": {
+              "y": {
+                "type": "string"
+              }
+            },
+            "additionalProperties": false
+          }
+        }
+      ]
+    },
+    "p27": {
+      "allOf": [
+        {
+          "type": "object"
+        },
+        {
+          "if": {
+            "required": [ "kind" ],
+            "properties": {
+              "kind": {
+                "const": "K27"
+              }
+            }
+          },
+          "then": {
+            "$ref": "#/$defs/Leaf"
+          },
+          "else": {
+            "type": "object",
+            "properties": {
+              "y": {
+                "type": "string"
+              }
+            },
+            "additionalProperties": false
+          }
+        }
+      ]
+    },
+    "p28": {
+      "allOf": [
+        {
+          "type": "object"
+        },
+        {
+          "if": {
+            "required": [ "kind" ],
+            "properties": {
+              "kind": {
+                "const": "K28"
+              }
+            }
+          },
+          "then": {
+            "$ref": "#/$defs/Leaf"
+          },
+          "else": {
+            "type": "object",
+            "properties": {
+              "y": {
+                "type": "string"
+              }
+            },
+            "additionalProperties": false
+          }
+        }
+      ]
+    },
+    "p29": {
+      "allOf": [
+        {
+          "type": "object"
+        },
+        {
+          "if": {
+            "required": [ "kind" ],
+            "properties": {
+              "kind": {
+                "const": "K29"
+              }
+            }
+          },
+          "then": {
+            "$ref": "#/$defs/Leaf"
+          },
+          "else": {
+            "type": "object",
+            "properties": {
+              "y": {
+                "type": "string"
+              }
+            },
+            "additionalProperties": false
+          }
+        }
+      ]
+    },
+    "p3": {
+      "allOf": [
+        {
+          "type": "object"
+        },
+        {
+          "if": {
+            "required": [ "kind" ],
+            "properties": {
+              "kind": {
+                "const": "K3"
+              }
+            }
+          },
+          "then": {
+            "$ref": "#/$defs/Leaf"
+          },
+          "else": {
+            "type": "object",
+            "properties": {
+              "y": {
+                "type": "string"
+              }
+            },
+            "additionalProperties": false
+          }
+        }
+      ]
+    },
+    "p30": {
+      "allOf": [
+        {
+          "type": "object"
+        },
+        {
+          "if": {
+            "required": [ "kind" ],
+            "properties": {
+              "kind": {
+                "const": "K30"
+              }
+            }
+          },
+          "then": {
+            "$ref": "#/$defs/Leaf"
+          },
+          "else": {
+            "type": "object",
+            "properties": {
+              "y": {
+                "type": "string"
+              }
+            },
+            "additionalProperties": false
+          }
+        }
+      ]
+    },
+    "p31": {
+      "allOf": [
+        {
+          "type": "object"
+        },
+        {
+          "if": {
+            "required": [ "kind" ],
+            "properties": {
+              "kind": {
+                "const": "K31"
+              }
+            }
+          },
+          "then": {
+            "$ref": "#/$defs/Leaf"
+          },
+          "else": {
+            "type": "object",
+            "properties": {
+              "y": {
+                "type": "string"
+              }
+            },
+            "additionalProperties": false
+          }
+        }
+      ]
+    },
+    "p32": {
+      "allOf": [
+        {
+          "type": "object"
+        },
+        {
+          "if": {
+            "required": [ "kind" ],
+            "properties": {
+              "kind": {
+                "const": "K32"
+              }
+            }
+          },
+          "then": {
+            "$ref": "#/$defs/Leaf"
+          },
+          "else": {
+            "type": "object",
+            "properties": {
+              "y": {
+                "type": "string"
+              }
+            },
+            "additionalProperties": false
+          }
+        }
+      ]
+    },
+    "p33": {
+      "allOf": [
+        {
+          "type": "object"
+        },
+        {
+          "if": {
+            "required": [ "kind" ],
+            "properties": {
+              "kind": {
+                "const": "K33"
+              }
+            }
+          },
+          "then": {
+            "$ref": "#/$defs/Leaf"
+          },
+          "else": {
+            "type": "object",
+            "properties": {
+              "y": {
+                "type": "string"
+              }
+            },
+            "additionalProperties": false
+          }
+        }
+      ]
+    },
+    "p34": {
+      "allOf": [
+        {
+          "type": "object"
+        },
+        {
+          "if": {
+            "required": [ "kind" ],
+            "properties": {
+              "kind": {
+                "const": "K34"
+              }
+            }
+          },
+          "then": {
+            "$ref": "#/$defs/Leaf"
+          },
+          "else": {
+            "type": "object",
+            "properties": {
+              "y": {
+                "type": "string"
+              }
+            },
+            "additionalProperties": false
+          }
+        }
+      ]
+    },
+    "p35": {
+      "allOf": [
+        {
+          "type": "object"
+        },
+        {
+          "if": {
+            "required": [ "kind" ],
+            "properties": {
+              "kind": {
+                "const": "K35"
+              }
+            }
+          },
+          "then": {
+            "$ref": "#/$defs/Leaf"
+          },
+          "else": {
+            "type": "object",
+            "properties": {
+              "y": {
+                "type": "string"
+              }
+            },
+            "additionalProperties": false
+          }
+        }
+      ]
+    },
+    "p36": {
+      "allOf": [
+        {
+          "type": "object"
+        },
+        {
+          "if": {
+            "required": [ "kind" ],
+            "properties": {
+              "kind": {
+                "const": "K36"
+              }
+            }
+          },
+          "then": {
+            "$ref": "#/$defs/Leaf"
+          },
+          "else": {
+            "type": "object",
+            "properties": {
+              "y": {
+                "type": "string"
+              }
+            },
+            "additionalProperties": false
+          }
+        }
+      ]
+    },
+    "p37": {
+      "allOf": [
+        {
+          "type": "object"
+        },
+        {
+          "if": {
+            "required": [ "kind" ],
+            "properties": {
+              "kind": {
+                "const": "K37"
+              }
+            }
+          },
+          "then": {
+            "$ref": "#/$defs/Leaf"
+          },
+          "else": {
+            "type": "object",
+            "properties": {
+              "y": {
+                "type": "string"
+              }
+            },
+            "additionalProperties": false
+          }
+        }
+      ]
+    },
+    "p38": {
+      "allOf": [
+        {
+          "type": "object"
+        },
+        {
+          "if": {
+            "required": [ "kind" ],
+            "properties": {
+              "kind": {
+                "const": "K38"
+              }
+            }
+          },
+          "then": {
+            "$ref": "#/$defs/Leaf"
+          },
+          "else": {
+            "type": "object",
+            "properties": {
+              "y": {
+                "type": "string"
+              }
+            },
+            "additionalProperties": false
+          }
+        }
+      ]
+    },
+    "p39": {
+      "allOf": [
+        {
+          "type": "object"
+        },
+        {
+          "if": {
+            "required": [ "kind" ],
+            "properties": {
+              "kind": {
+                "const": "K39"
+              }
+            }
+          },
+          "then": {
+            "$ref": "#/$defs/Leaf"
+          },
+          "else": {
+            "type": "object",
+            "properties": {
+              "y": {
+                "type": "string"
+              }
+            },
+            "additionalProperties": false
+          }
+        }
+      ]
+    },
+    "p4": {
+      "allOf": [
+        {
+          "type": "object"
+        },
+        {
+          "if": {
+            "required": [ "kind" ],
+            "properties": {
+              "kind": {
+                "const": "K4"
+              }
+            }
+          },
+          "then": {
+            "$ref": "#/$defs/Leaf"
+          },
+          "else": {
+            "type": "object",
+            "properties": {
+              "y": {
+                "type": "string"
+              }
+            },
+            "additionalProperties": false
+          }
+        }
+      ]
+    },
+    "p40": {
+      "allOf": [
+        {
+          "type": "object"
+        },
+        {
+          "if": {
+            "required": [ "kind" ],
+            "properties": {
+              "kind": {
+                "const": "K40"
+              }
+            }
+          },
+          "then": {
+            "$ref": "#/$defs/Leaf"
+          },
+          "else": {
+            "type": "object",
+            "properties": {
+              "y": {
+                "type": "string"
+              }
+            },
+            "additionalProperties": false
+          }
+        }
+      ]
+    },
+    "p41": {
+      "allOf": [
+        {
+          "type": "object"
+        },
+        {
+          "if": {
+            "required": [ "kind" ],
+            "properties": {
+              "kind": {
+                "const": "K41"
+              }
+            }
+          },
+          "then": {
+            "$ref": "#/$defs/Leaf"
+          },
+          "else": {
+            "type": "object",
+            "properties": {
+              "y": {
+                "type": "string"
+              }
+            },
+            "additionalProperties": false
+          }
+        }
+      ]
+    },
+    "p42": {
+      "allOf": [
+        {
+          "type": "object"
+        },
+        {
+          "if": {
+            "required": [ "kind" ],
+            "properties": {
+              "kind": {
+                "const": "K42"
+              }
+            }
+          },
+          "then": {
+            "$ref": "#/$defs/Leaf"
+          },
+          "else": {
+            "type": "object",
+            "properties": {
+              "y": {
+                "type": "string"
+              }
+            },
+            "additionalProperties": false
+          }
+        }
+      ]
+    },
+    "p43": {
+      "allOf": [
+        {
+          "type": "object"
+        },
+        {
+          "if": {
+            "required": [ "kind" ],
+            "properties": {
+              "kind": {
+                "const": "K43"
+              }
+            }
+          },
+          "then": {
+            "$ref": "#/$defs/Leaf"
+          },
+          "else": {
+            "type": "object",
+            "properties": {
+              "y": {
+                "type": "string"
+              }
+            },
+            "additionalProperties": false
+          }
+        }
+      ]
+    },
+    "p44": {
+      "allOf": [
+        {
+          "type": "object"
+        },
+        {
+          "if": {
+            "required": [ "kind" ],
+            "properties": {
+              "kind": {
+                "const": "K44"
+              }
+            }
+          },
+          "then": {
+            "$ref": "#/$defs/Leaf"
+          },
+          "else": {
+            "type": "object",
+            "properties": {
+              "y": {
+                "type": "string"
+              }
+            },
+            "additionalProperties": false
+          }
+        }
+      ]
+    },
+    "p45": {
+      "allOf": [
+        {
+          "type": "object"
+        },
+        {
+          "if": {
+            "required": [ "kind" ],
+            "properties": {
+              "kind": {
+                "const": "K45"
+              }
+            }
+          },
+          "then": {
+            "$ref": "#/$defs/Leaf"
+          },
+          "else": {
+            "type": "object",
+            "properties": {
+              "y": {
+                "type": "string"
+              }
+            },
+            "additionalProperties": false
+          }
+        }
+      ]
+    },
+    "p46": {
+      "allOf": [
+        {
+          "type": "object"
+        },
+        {
+          "if": {
+            "required": [ "kind" ],
+            "properties": {
+              "kind": {
+                "const": "K46"
+              }
+            }
+          },
+          "then": {
+            "$ref": "#/$defs/Leaf"
+          },
+          "else": {
+            "type": "object",
+            "properties": {
+              "y": {
+                "type": "string"
+              }
+            },
+            "additionalProperties": false
+          }
+        }
+      ]
+    },
+    "p47": {
+      "allOf": [
+        {
+          "type": "object"
+        },
+        {
+          "if": {
+            "required": [ "kind" ],
+            "properties": {
+              "kind": {
+                "const": "K47"
+              }
+            }
+          },
+          "then": {
+            "$ref": "#/$defs/Leaf"
+          },
+          "else": {
+            "type": "object",
+            "properties": {
+              "y": {
+                "type": "string"
+              }
+            },
+            "additionalProperties": false
+          }
+        }
+      ]
+    },
+    "p48": {
+      "allOf": [
+        {
+          "type": "object"
+        },
+        {
+          "if": {
+            "required": [ "kind" ],
+            "properties": {
+              "kind": {
+                "const": "K48"
+              }
+            }
+          },
+          "then": {
+            "$ref": "#/$defs/Leaf"
+          },
+          "else": {
+            "type": "object",
+            "properties": {
+              "y": {
+                "type": "string"
+              }
+            },
+            "additionalProperties": false
+          }
+        }
+      ]
+    },
+    "p49": {
+      "allOf": [
+        {
+          "type": "object"
+        },
+        {
+          "if": {
+            "required": [ "kind" ],
+            "properties": {
+              "kind": {
+                "const": "K49"
+              }
+            }
+          },
+          "then": {
+            "$ref": "#/$defs/Leaf"
+          },
+          "else": {
+            "type": "object",
+            "properties": {
+              "y": {
+                "type": "string"
+              }
+            },
+            "additionalProperties": false
+          }
+        }
+      ]
+    },
+    "p5": {
+      "allOf": [
+        {
+          "type": "object"
+        },
+        {
+          "if": {
+            "required": [ "kind" ],
+            "properties": {
+              "kind": {
+                "const": "K5"
+              }
+            }
+          },
+          "then": {
+            "$ref": "#/$defs/Leaf"
+          },
+          "else": {
+            "type": "object",
+            "properties": {
+              "y": {
+                "type": "string"
+              }
+            },
+            "additionalProperties": false
+          }
+        }
+      ]
+    },
+    "p50": {
+      "allOf": [
+        {
+          "type": "object"
+        },
+        {
+          "if": {
+            "required": [ "kind" ],
+            "properties": {
+              "kind": {
+                "const": "K50"
+              }
+            }
+          },
+          "then": {
+            "$ref": "#/$defs/Leaf"
+          },
+          "else": {
+            "type": "object",
+            "properties": {
+              "y": {
+                "type": "string"
+              }
+            },
+            "additionalProperties": false
+          }
+        }
+      ]
+    },
+    "p51": {
+      "allOf": [
+        {
+          "type": "object"
+        },
+        {
+          "if": {
+            "required": [ "kind" ],
+            "properties": {
+              "kind": {
+                "const": "K51"
+              }
+            }
+          },
+          "then": {
+            "$ref": "#/$defs/Leaf"
+          },
+          "else": {
+            "type": "object",
+            "properties": {
+              "y": {
+                "type": "string"
+              }
+            },
+            "additionalProperties": false
+          }
+        }
+      ]
+    },
+    "p52": {
+      "allOf": [
+        {
+          "type": "object"
+        },
+        {
+          "if": {
+            "required": [ "kind" ],
+            "properties": {
+              "kind": {
+                "const": "K52"
+              }
+            }
+          },
+          "then": {
+            "$ref": "#/$defs/Leaf"
+          },
+          "else": {
+            "type": "object",
+            "properties": {
+              "y": {
+                "type": "string"
+              }
+            },
+            "additionalProperties": false
+          }
+        }
+      ]
+    },
+    "p53": {
+      "allOf": [
+        {
+          "type": "object"
+        },
+        {
+          "if": {
+            "required": [ "kind" ],
+            "properties": {
+              "kind": {
+                "const": "K53"
+              }
+            }
+          },
+          "then": {
+            "$ref": "#/$defs/Leaf"
+          },
+          "else": {
+            "type": "object",
+            "properties": {
+              "y": {
+                "type": "string"
+              }
+            },
+            "additionalProperties": false
+          }
+        }
+      ]
+    },
+    "p54": {
+      "allOf": [
+        {
+          "type": "object"
+        },
+        {
+          "if": {
+            "required": [ "kind" ],
+            "properties": {
+              "kind": {
+                "const": "K54"
+              }
+            }
+          },
+          "then": {
+            "$ref": "#/$defs/Leaf"
+          },
+          "else": {
+            "type": "object",
+            "properties": {
+              "y": {
+                "type": "string"
+              }
+            },
+            "additionalProperties": false
+          }
+        }
+      ]
+    },
+    "p55": {
+      "allOf": [
+        {
+          "type": "object"
+        },
+        {
+          "if": {
+            "required": [ "kind" ],
+            "properties": {
+              "kind": {
+                "const": "K55"
+              }
+            }
+          },
+          "then": {
+            "$ref": "#/$defs/Leaf"
+          },
+          "else": {
+            "type": "object",
+            "properties": {
+              "y": {
+                "type": "string"
+              }
+            },
+            "additionalProperties": false
+          }
+        }
+      ]
+    },
+    "p56": {
+      "allOf": [
+        {
+          "type": "object"
+        },
+        {
+          "if": {
+            "required": [ "kind" ],
+            "properties": {
+              "kind": {
+                "const": "K56"
+              }
+            }
+          },
+          "then": {
+            "$ref": "#/$defs/Leaf"
+          },
+          "else": {
+            "type": "object",
+            "properties": {
+              "y": {
+                "type": "string"
+              }
+            },
+            "additionalProperties": false
+          }
+        }
+      ]
+    },
+    "p57": {
+      "allOf": [
+        {
+          "type": "object"
+        },
+        {
+          "if": {
+            "required": [ "kind" ],
+            "properties": {
+              "kind": {
+                "const": "K57"
+              }
+            }
+          },
+          "then": {
+            "$ref": "#/$defs/Leaf"
+          },
+          "else": {
+            "type": "object",
+            "properties": {
+              "y": {
+                "type": "string"
+              }
+            },
+            "additionalProperties": false
+          }
+        }
+      ]
+    },
+    "p58": {
+      "allOf": [
+        {
+          "type": "object"
+        },
+        {
+          "if": {
+            "required": [ "kind" ],
+            "properties": {
+              "kind": {
+                "const": "K58"
+              }
+            }
+          },
+          "then": {
+            "$ref": "#/$defs/Leaf"
+          },
+          "else": {
+            "type": "object",
+            "properties": {
+              "y": {
+                "type": "string"
+              }
+            },
+            "additionalProperties": false
+          }
+        }
+      ]
+    },
+    "p59": {
+      "allOf": [
+        {
+          "type": "object"
+        },
+        {
+          "if": {
+            "required": [ "kind" ],
+            "properties": {
+              "kind": {
+                "const": "K59"
+              }
+            }
+          },
+          "then": {
+            "$ref": "#/$defs/Leaf"
+          },
+          "else": {
+            "type": "object",
+            "properties": {
+              "y": {
+                "type": "string"
+              }
+            },
+            "additionalProperties": false
+          }
+        }
+      ]
+    },
+    "p6": {
+      "allOf": [
+        {
+          "type": "object"
+        },
+        {
+          "if": {
+            "required": [ "kind" ],
+            "properties": {
+              "kind": {
+                "const": "K6"
+              }
+            }
+          },
+          "then": {
+            "$ref": "#/$defs/Leaf"
+          },
+          "else": {
+            "type": "object",
+            "properties": {
+              "y": {
+                "type": "string"
+              }
+            },
+            "additionalProperties": false
+          }
+        }
+      ]
+    },
+    "p60": {
+      "allOf": [
+        {
+          "type": "object"
+        },
+        {
+          "if": {
+            "required": [ "kind" ],
+            "properties": {
+              "kind": {
+                "const": "K60"
+              }
+            }
+          },
+          "then": {
+            "$ref": "#/$defs/Leaf"
+          },
+          "else": {
+            "type": "object",
+            "properties": {
+              "y": {
+                "type": "string"
+              }
+            },
+            "additionalProperties": false
+          }
+        }
+      ]
+    },
+    "p61": {
+      "allOf": [
+        {
+          "type": "object"
+        },
+        {
+          "if": {
+            "required": [ "kind" ],
+            "properties": {
+              "kind": {
+                "const": "K61"
+              }
+            }
+          },
+          "then": {
+            "$ref": "#/$defs/Leaf"
+          },
+          "else": {
+            "type": "object",
+            "properties": {
+              "y": {
+                "type": "string"
+              }
+            },
+            "additionalProperties": false
+          }
+        }
+      ]
+    },
+    "p62": {
+      "allOf": [
+        {
+          "type": "object"
+        },
+        {
+          "if": {
+            "required": [ "kind" ],
+            "properties": {
+              "kind": {
+                "const": "K62"
+              }
+            }
+          },
+          "then": {
+            "$ref": "#/$defs/Leaf"
+          },
+          "else": {
+            "type": "object",
+            "properties": {
+              "y": {
+                "type": "string"
+              }
+            },
+            "additionalProperties": false
+          }
+        }
+      ]
+    },
+    "p63": {
+      "allOf": [
+        {
+          "type": "object"
+        },
+        {
+          "if": {
+            "required": [ "kind" ],
+            "properties": {
+              "kind": {
+                "const": "K63"
+              }
+            }
+          },
+          "then": {
+            "$ref": "#/$defs/Leaf"
+          },
+          "else": {
+            "type": "object",
+            "properties": {
+              "y": {
+                "type": "string"
+              }
+            },
+            "additionalProperties": false
+          }
+        }
+      ]
+    },
+    "p64": {
+      "allOf": [
+        {
+          "type": "object"
+        },
+        {
+          "if": {
+            "required": [ "kind" ],
+            "properties": {
+              "kind": {
+                "const": "K64"
+              }
+            }
+          },
+          "then": {
+            "$ref": "#/$defs/Leaf"
+          },
+          "else": {
+            "type": "object",
+            "properties": {
+              "y": {
+                "type": "string"
+              }
+            },
+            "additionalProperties": false
+          }
+        }
+      ]
+    },
+    "p65": {
+      "allOf": [
+        {
+          "type": "object"
+        },
+        {
+          "if": {
+            "required": [ "kind" ],
+            "properties": {
+              "kind": {
+                "const": "K65"
+              }
+            }
+          },
+          "then": {
+            "$ref": "#/$defs/Leaf"
+          },
+          "else": {
+            "type": "object",
+            "properties": {
+              "y": {
+                "type": "string"
+              }
+            },
+            "additionalProperties": false
+          }
+        }
+      ]
+    },
+    "p66": {
+      "allOf": [
+        {
+          "type": "object"
+        },
+        {
+          "if": {
+            "required": [ "kind" ],
+            "properties": {
+              "kind": {
+                "const": "K66"
+              }
+            }
+          },
+          "then": {
+            "$ref": "#/$defs/Leaf"
+          },
+          "else": {
+            "type": "object",
+            "properties": {
+              "y": {
+                "type": "string"
+              }
+            },
+            "additionalProperties": false
+          }
+        }
+      ]
+    },
+    "p67": {
+      "allOf": [
+        {
+          "type": "object"
+        },
+        {
+          "if": {
+            "required": [ "kind" ],
+            "properties": {
+              "kind": {
+                "const": "K67"
+              }
+            }
+          },
+          "then": {
+            "$ref": "#/$defs/Leaf"
+          },
+          "else": {
+            "type": "object",
+            "properties": {
+              "y": {
+                "type": "string"
+              }
+            },
+            "additionalProperties": false
+          }
+        }
+      ]
+    },
+    "p68": {
+      "allOf": [
+        {
+          "type": "object"
+        },
+        {
+          "if": {
+            "required": [ "kind" ],
+            "properties": {
+              "kind": {
+                "const": "K68"
+              }
+            }
+          },
+          "then": {
+            "$ref": "#/$defs/Leaf"
+          },
+          "else": {
+            "type": "object",
+            "properties": {
+              "y": {
+                "type": "string"
+              }
+            },
+            "additionalProperties": false
+          }
+        }
+      ]
+    },
+    "p69": {
+      "allOf": [
+        {
+          "type": "object"
+        },
+        {
+          "if": {
+            "required": [ "kind" ],
+            "properties": {
+              "kind": {
+                "const": "K69"
+              }
+            }
+          },
+          "then": {
+            "$ref": "#/$defs/Leaf"
+          },
+          "else": {
+            "type": "object",
+            "properties": {
+              "y": {
+                "type": "string"
+              }
+            },
+            "additionalProperties": false
+          }
+        }
+      ]
+    },
+    "p7": {
+      "allOf": [
+        {
+          "type": "object"
+        },
+        {
+          "if": {
+            "required": [ "kind" ],
+            "properties": {
+              "kind": {
+                "const": "K7"
+              }
+            }
+          },
+          "then": {
+            "$ref": "#/$defs/Leaf"
+          },
+          "else": {
+            "type": "object",
+            "properties": {
+              "y": {
+                "type": "string"
+              }
+            },
+            "additionalProperties": false
+          }
+        }
+      ]
+    },
+    "p70": {
+      "allOf": [
+        {
+          "type": "object"
+        },
+        {
+          "if": {
+            "required": [ "kind" ],
+            "properties": {
+              "kind": {
+                "const": "K70"
+              }
+            }
+          },
+          "then": {
+            "$ref": "#/$defs/Leaf"
+          },
+          "else": {
+            "type": "object",
+            "properties": {
+              "y": {
+                "type": "string"
+              }
+            },
+            "additionalProperties": false
+          }
+        }
+      ]
+    },
+    "p71": {
+      "allOf": [
+        {
+          "type": "object"
+        },
+        {
+          "if": {
+            "required": [ "kind" ],
+            "properties": {
+              "kind": {
+                "const": "K71"
+              }
+            }
+          },
+          "then": {
+            "$ref": "#/$defs/Leaf"
+          },
+          "else": {
+            "type": "object",
+            "properties": {
+              "y": {
+                "type": "string"
+              }
+            },
+            "additionalProperties": false
+          }
+        }
+      ]
+    },
+    "p72": {
+      "allOf": [
+        {
+          "type": "object"
+        },
+        {
+          "if": {
+            "required": [ "kind" ],
+            "properties": {
+              "kind": {
+                "const": "K72"
+              }
+            }
+          },
+          "then": {
+            "$ref": "#/$defs/Leaf"
+          },
+          "else": {
+            "type": "object",
+            "properties": {
+              "y": {
+                "type": "string"
+              }
+            },
+            "additionalProperties": false
+          }
+        }
+      ]
+    },
+    "p73": {
+      "allOf": [
+        {
+          "type": "object"
+        },
+        {
+          "if": {
+            "required": [ "kind" ],
+            "properties": {
+              "kind": {
+                "const": "K73"
+              }
+            }
+          },
+          "then": {
+            "$ref": "#/$defs/Leaf"
+          },
+          "else": {
+            "type": "object",
+            "properties": {
+              "y": {
+                "type": "string"
+              }
+            },
+            "additionalProperties": false
+          }
+        }
+      ]
+    },
+    "p74": {
+      "allOf": [
+        {
+          "type": "object"
+        },
+        {
+          "if": {
+            "required": [ "kind" ],
+            "properties": {
+              "kind": {
+                "const": "K74"
+              }
+            }
+          },
+          "then": {
+            "$ref": "#/$defs/Leaf"
+          },
+          "else": {
+            "type": "object",
+            "properties": {
+              "y": {
+                "type": "string"
+              }
+            },
+            "additionalProperties": false
+          }
+        }
+      ]
+    },
+    "p75": {
+      "allOf": [
+        {
+          "type": "object"
+        },
+        {
+          "if": {
+            "required": [ "kind" ],
+            "properties": {
+              "kind": {
+                "const": "K75"
+              }
+            }
+          },
+          "then": {
+            "$ref": "#/$defs/Leaf"
+          },
+          "else": {
+            "type": "object",
+            "properties": {
+              "y": {
+                "type": "string"
+              }
+            },
+            "additionalProperties": false
+          }
+        }
+      ]
+    },
+    "p76": {
+      "allOf": [
+        {
+          "type": "object"
+        },
+        {
+          "if": {
+            "required": [ "kind" ],
+            "properties": {
+              "kind": {
+                "const": "K76"
+              }
+            }
+          },
+          "then": {
+            "$ref": "#/$defs/Leaf"
+          },
+          "else": {
+            "type": "object",
+            "properties": {
+              "y": {
+                "type": "string"
+              }
+            },
+            "additionalProperties": false
+          }
+        }
+      ]
+    },
+    "p77": {
+      "allOf": [
+        {
+          "type": "object"
+        },
+        {
+          "if": {
+            "required": [ "kind" ],
+            "properties": {
+              "kind": {
+                "const": "K77"
+              }
+            }
+          },
+          "then": {
+            "$ref": "#/$defs/Leaf"
+          },
+          "else": {
+            "type": "object",
+            "properties": {
+              "y": {
+                "type": "string"
+              }
+            },
+            "additionalProperties": false
+          }
+        }
+      ]
+    },
+    "p78": {
+      "allOf": [
+        {
+          "type": "object"
+        },
+        {
+          "if": {
+            "required": [ "kind" ],
+            "properties": {
+              "kind": {
+                "const": "K78"
+              }
+            }
+          },
+          "then": {
+            "$ref": "#/$defs/Leaf"
+          },
+          "else": {
+            "type": "object",
+            "properties": {
+              "y": {
+                "type": "string"
+              }
+            },
+            "additionalProperties": false
+          }
+        }
+      ]
+    },
+    "p79": {
+      "allOf": [
+        {
+          "type": "object"
+        },
+        {
+          "if": {
+            "required": [ "kind" ],
+            "properties": {
+              "kind": {
+                "const": "K79"
+              }
+            }
+          },
+          "then": {
+            "$ref": "#/$defs/Leaf"
+          },
+          "else": {
+            "type": "object",
+            "properties": {
+              "y": {
+                "type": "string"
+              }
+            },
+            "additionalProperties": false
+          }
+        }
+      ]
+    },
+    "p8": {
+      "allOf": [
+        {
+          "type": "object"
+        },
+        {
+          "if": {
+            "required": [ "kind" ],
+            "properties": {
+              "kind": {
+                "const": "K8"
+              }
+            }
+          },
+          "then": {
+            "$ref": "#/$defs/Leaf"
+          },
+          "else": {
+            "type": "object",
+            "properties": {
+              "y": {
+                "type": "string"
+              }
+            },
+            "additionalProperties": false
+          }
+        }
+      ]
+    },
+    "p80": {
+      "allOf": [
+        {
+          "type": "object"
+        },
+        {
+          "if": {
+            "required": [ "kind" ],
+            "properties": {
+              "kind": {
+                "const": "K80"
+              }
+            }
+          },
+          "then": {
+            "$ref": "#/$defs/Leaf"
+          },
+          "else": {
+            "type": "object",
+            "properties": {
+              "y": {
+                "type": "string"
+              }
+            },
+            "additionalProperties": false
+          }
+        }
+      ]
+    },
+    "p81": {
+      "allOf": [
+        {
+          "type": "object"
+        },
+        {
+          "if": {
+            "required": [ "kind" ],
+            "properties": {
+              "kind": {
+                "const": "K81"
+              }
+            }
+          },
+          "then": {
+            "$ref": "#/$defs/Leaf"
+          },
+          "else": {
+            "type": "object",
+            "properties": {
+              "y": {
+                "type": "string"
+              }
+            },
+            "additionalProperties": false
+          }
+        }
+      ]
+    },
+    "p82": {
+      "allOf": [
+        {
+          "type": "object"
+        },
+        {
+          "if": {
+            "required": [ "kind" ],
+            "properties": {
+              "kind": {
+                "const": "K82"
+              }
+            }
+          },
+          "then": {
+            "$ref": "#/$defs/Leaf"
+          },
+          "else": {
+            "type": "object",
+            "properties": {
+              "y": {
+                "type": "string"
+              }
+            },
+            "additionalProperties": false
+          }
+        }
+      ]
+    },
+    "p83": {
+      "allOf": [
+        {
+          "type": "object"
+        },
+        {
+          "if": {
+            "required": [ "kind" ],
+            "properties": {
+              "kind": {
+                "const": "K83"
+              }
+            }
+          },
+          "then": {
+            "$ref": "#/$defs/Leaf"
+          },
+          "else": {
+            "type": "object",
+            "properties": {
+              "y": {
+                "type": "string"
+              }
+            },
+            "additionalProperties": false
+          }
+        }
+      ]
+    },
+    "p84": {
+      "allOf": [
+        {
+          "type": "object"
+        },
+        {
+          "if": {
+            "required": [ "kind" ],
+            "properties": {
+              "kind": {
+                "const": "K84"
+              }
+            }
+          },
+          "then": {
+            "$ref": "#/$defs/Leaf"
+          },
+          "else": {
+            "type": "object",
+            "properties": {
+              "y": {
+                "type": "string"
+              }
+            },
+            "additionalProperties": false
+          }
+        }
+      ]
+    },
+    "p85": {
+      "allOf": [
+        {
+          "type": "object"
+        },
+        {
+          "if": {
+            "required": [ "kind" ],
+            "properties": {
+              "kind": {
+                "const": "K85"
+              }
+            }
+          },
+          "then": {
+            "$ref": "#/$defs/Leaf"
+          },
+          "else": {
+            "type": "object",
+            "properties": {
+              "y": {
+                "type": "string"
+              }
+            },
+            "additionalProperties": false
+          }
+        }
+      ]
+    },
+    "p86": {
+      "allOf": [
+        {
+          "type": "object"
+        },
+        {
+          "if": {
+            "required": [ "kind" ],
+            "properties": {
+              "kind": {
+                "const": "K86"
+              }
+            }
+          },
+          "then": {
+            "$ref": "#/$defs/Leaf"
+          },
+          "else": {
+            "type": "object",
+            "properties": {
+              "y": {
+                "type": "string"
+              }
+            },
+            "additionalProperties": false
+          }
+        }
+      ]
+    },
+    "p87": {
+      "allOf": [
+        {
+          "type": "object"
+        },
+        {
+          "if": {
+            "required": [ "kind" ],
+            "properties": {
+              "kind": {
+                "const": "K87"
+              }
+            }
+          },
+          "then": {
+            "$ref": "#/$defs/Leaf"
+          },
+          "else": {
+            "type": "object",
+            "properties": {
+              "y": {
+                "type": "string"
+              }
+            },
+            "additionalProperties": false
+          }
+        }
+      ]
+    },
+    "p88": {
+      "allOf": [
+        {
+          "type": "object"
+        },
+        {
+          "if": {
+            "required": [ "kind" ],
+            "properties": {
+              "kind": {
+                "const": "K88"
+              }
+            }
+          },
+          "then": {
+            "$ref": "#/$defs/Leaf"
+          },
+          "else": {
+            "type": "object",
+            "properties": {
+              "y": {
+                "type": "string"
+              }
+            },
+            "additionalProperties": false
+          }
+        }
+      ]
+    },
+    "p89": {
+      "allOf": [
+        {
+          "type": "object"
+        },
+        {
+          "if": {
+            "required": [ "kind" ],
+            "properties": {
+              "kind": {
+                "const": "K89"
+              }
+            }
+          },
+          "then": {
+            "$ref": "#/$defs/Leaf"
+          },
+          "else": {
+            "type": "object",
+            "properties": {
+              "y": {
+                "type": "string"
+              }
+            },
+            "additionalProperties": false
+          }
+        }
+      ]
+    },
+    "p9": {
+      "allOf": [
+        {
+          "type": "object"
+        },
+        {
+          "if": {
+            "required": [ "kind" ],
+            "properties": {
+              "kind": {
+                "const": "K9"
+              }
+            }
+          },
+          "then": {
+            "$ref": "#/$defs/Leaf"
+          },
+          "else": {
+            "type": "object",
+            "properties": {
+              "y": {
+                "type": "string"
+              }
+            },
+            "additionalProperties": false
+          }
+        }
+      ]
+    },
+    "p90": {
+      "allOf": [
+        {
+          "type": "object"
+        },
+        {
+          "if": {
+            "required": [ "kind" ],
+            "properties": {
+              "kind": {
+                "const": "K90"
+              }
+            }
+          },
+          "then": {
+            "$ref": "#/$defs/Leaf"
+          },
+          "else": {
+            "type": "object",
+            "properties": {
+              "y": {
+                "type": "string"
+              }
+            },
+            "additionalProperties": false
+          }
+        }
+      ]
+    },
+    "p91": {
+      "allOf": [
+        {
+          "type": "object"
+        },
+        {
+          "if": {
+            "required": [ "kind" ],
+            "properties": {
+              "kind": {
+                "const": "K91"
+              }
+            }
+          },
+          "then": {
+            "$ref": "#/$defs/Leaf"
+          },
+          "else": {
+            "type": "object",
+            "properties": {
+              "y": {
+                "type": "string"
+              }
+            },
+            "additionalProperties": false
+          }
+        }
+      ]
+    },
+    "p92": {
+      "allOf": [
+        {
+          "type": "object"
+        },
+        {
+          "if": {
+            "required": [ "kind" ],
+            "properties": {
+              "kind": {
+                "const": "K92"
+              }
+            }
+          },
+          "then": {
+            "$ref": "#/$defs/Leaf"
+          },
+          "else": {
+            "type": "object",
+            "properties": {
+              "y": {
+                "type": "string"
+              }
+            },
+            "additionalProperties": false
+          }
+        }
+      ]
+    },
+    "p93": {
+      "allOf": [
+        {
+          "type": "object"
+        },
+        {
+          "if": {
+            "required": [ "kind" ],
+            "properties": {
+              "kind": {
+                "const": "K93"
+              }
+            }
+          },
+          "then": {
+            "$ref": "#/$defs/Leaf"
+          },
+          "else": {
+            "type": "object",
+            "properties": {
+              "y": {
+                "type": "string"
+              }
+            },
+            "additionalProperties": false
+          }
+        }
+      ]
+    },
+    "p94": {
+      "allOf": [
+        {
+          "type": "object"
+        },
+        {
+          "if": {
+            "required": [ "kind" ],
+            "properties": {
+              "kind": {
+                "const": "K94"
+              }
+            }
+          },
+          "then": {
+            "$ref": "#/$defs/Leaf"
+          },
+          "else": {
+            "type": "object",
+            "properties": {
+              "y": {
+                "type": "string"
+              }
+            },
+            "additionalProperties": false
+          }
+        }
+      ]
+    },
+    "p95": {
+      "allOf": [
+        {
+          "type": "object"
+        },
+        {
+          "if": {
+            "required": [ "kind" ],
+            "properties": {
+              "kind": {
+                "const": "K95"
+              }
+            }
+          },
+          "then": {
+            "$ref": "#/$defs/Leaf"
+          },
+          "else": {
+            "type": "object",
+            "properties": {
+              "y": {
+                "type": "string"
+              }
+            },
+            "additionalProperties": false
+          }
+        }
+      ]
+    },
+    "p96": {
+      "allOf": [
+        {
+          "type": "object"
+        },
+        {
+          "if": {
+            "required": [ "kind" ],
+            "properties": {
+              "kind": {
+                "const": "K96"
+              }
+            }
+          },
+          "then": {
+            "$ref": "#/$defs/Leaf"
+          },
+          "else": {
+            "type": "object",
+            "properties": {
+              "y": {
+                "type": "string"
+              }
+            },
+            "additionalProperties": false
+          }
+        }
+      ]
+    },
+    "p97": {
+      "allOf": [
+        {
+          "type": "object"
+        },
+        {
+          "if": {
+            "required": [ "kind" ],
+            "properties": {
+              "kind": {
+                "const": "K97"
+              }
+            }
+          },
+          "then": {
+            "$ref": "#/$defs/Leaf"
+          },
+          "else": {
+            "type": "object",
+            "properties": {
+              "y": {
+                "type": "string"
+              }
+            },
+            "additionalProperties": false
+          }
+        }
+      ]
+    },
+    "p98": {
+      "allOf": [
+        {
+          "type": "object"
+        },
+        {
+          "if": {
+            "required": [ "kind" ],
+            "properties": {
+              "kind": {
+                "const": "K98"
+              }
+            }
+          },
+          "then": {
+            "$ref": "#/$defs/Leaf"
+          },
+          "else": {
+            "type": "object",
+            "properties": {
+              "y": {
+                "type": "string"
+              }
+            },
+            "additionalProperties": false
+          }
+        }
+      ]
+    },
+    "p99": {
+      "allOf": [
+        {
+          "type": "object"
+        },
+        {
+          "if": {
+            "required": [ "kind" ],
+            "properties": {
+              "kind": {
+                "const": "K99"
+              }
+            }
+          },
+          "then": {
+            "$ref": "#/$defs/Leaf"
+          },
+          "else": {
+            "type": "object",
+            "properties": {
+              "y": {
+                "type": "string"
+              }
+            },
+            "additionalProperties": false
+          }
+        }
+      ]
+    }
+  },
+  "additionalProperties": false,
+  "$defs": {
+    "Leaf": {
+      "type": "object",
+      "required": [ "x" ],
+      "properties": {
+        "x": {
+          "type": "integer"
+        }
+      },
+      "additionalProperties": false
+    }
+  }
+}

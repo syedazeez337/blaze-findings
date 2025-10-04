@@ -1,0 +1,822 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://example.com/hot",
+  "type": "object",
+  "properties": {
+    "p1": {
+      "allOf": [
+        {
+          "type": "object"
+        },
+        {}
+      ]
+    },
+    "p10": {
+      "allOf": [
+        {
+          "type": "object"
+        },
+        {}
+      ]
+    },
+    "p100": {
+      "allOf": [
+        {
+          "type": "object"
+        },
+        {}
+      ]
+    },
+    "p11": {
+      "allOf": [
+        {
+          "type": "object"
+        },
+        {}
+      ]
+    },
+    "p12": {
+      "allOf": [
+        {
+          "type": "object"
+        },
+        {}
+      ]
+    },
+    "p13": {
+      "allOf": [
+        {
+          "type": "object"
+        },
+        {}
+      ]
+    },
+    "p14": {
+      "allOf": [
+        {
+          "type": "object"
+        },
+        {}
+      ]
+    },
+    "p15": {
+      "allOf": [
+        {
+          "type": "object"
+        },
+        {}
+      ]
+    },
+    "p16": {
+      "allOf": [
+        {
+          "type": "object"
+        },
+        {}
+      ]
+    },
+    "p17": {
+      "allOf": [
+        {
+          "type": "object"
+        },
+        {}
+      ]
+    },
+    "p18": {
+      "allOf": [
+        {
+          "type": "object"
+        },
+        {}
+      ]
+    },
+    "p19": {
+      "allOf": [
+        {
+          "type": "object"
+        },
+        {}
+      ]
+    },
+    "p2": {
+      "allOf": [
+        {
+          "type": "object"
+        },
+        {}
+      ]
+    },
+    "p20": {
+      "allOf": [
+        {
+          "type": "object"
+        },
+        {}
+      ]
+    },
+    "p21": {
+      "allOf": [
+        {
+          "type": "object"
+        },
+        {}
+      ]
+    },
+    "p22": {
+      "allOf": [
+        {
+          "type": "object"
+        },
+        {}
+      ]
+    },
+    "p23": {
+      "allOf": [
+        {
+          "type": "object"
+        },
+        {}
+      ]
+    },
+    "p24": {
+      "allOf": [
+        {
+          "type": "object"
+        },
+        {}
+      ]
+    },
+    "p25": {
+      "allOf": [
+        {
+          "type": "object"
+        },
+        {}
+      ]
+    },
+    "p26": {
+      "allOf": [
+        {
+          "type": "object"
+        },
+        {}
+      ]
+    },
+    "p27": {
+      "allOf": [
+        {
+          "type": "object"
+        },
+        {}
+      ]
+    },
+    "p28": {
+      "allOf": [
+        {
+          "type": "object"
+        },
+        {}
+      ]
+    },
+    "p29": {
+      "allOf": [
+        {
+          "type": "object"
+        },
+        {}
+      ]
+    },
+    "p3": {
+      "allOf": [
+        {
+          "type": "object"
+        },
+        {}
+      ]
+    },
+    "p30": {
+      "allOf": [
+        {
+          "type": "object"
+        },
+        {}
+      ]
+    },
+    "p31": {
+      "allOf": [
+        {
+          "type": "object"
+        },
+        {}
+      ]
+    },
+    "p32": {
+      "allOf": [
+        {
+          "type": "object"
+        },
+        {}
+      ]
+    },
+    "p33": {
+      "allOf": [
+        {
+          "type": "object"
+        },
+        {}
+      ]
+    },
+    "p34": {
+      "allOf": [
+        {
+          "type": "object"
+        },
+        {}
+      ]
+    },
+    "p35": {
+      "allOf": [
+        {
+          "type": "object"
+        },
+        {}
+      ]
+    },
+    "p36": {
+      "allOf": [
+        {
+          "type": "object"
+        },
+        {}
+      ]
+    },
+    "p37": {
+      "allOf": [
+        {
+          "type": "object"
+        },
+        {}
+      ]
+    },
+    "p38": {
+      "allOf": [
+        {
+          "type": "object"
+        },
+        {}
+      ]
+    },
+    "p39": {
+      "allOf": [
+        {
+          "type": "object"
+        },
+        {}
+      ]
+    },
+    "p4": {
+      "allOf": [
+        {
+          "type": "object"
+        },
+        {}
+      ]
+    },
+    "p40": {
+      "allOf": [
+        {
+          "type": "object"
+        },
+        {}
+      ]
+    },
+    "p41": {
+      "allOf": [
+        {
+          "type": "object"
+        },
+        {}
+      ]
+    },
+    "p42": {
+      "allOf": [
+        {
+          "type": "object"
+        },
+        {}
+      ]
+    },
+    "p43": {
+      "allOf": [
+        {
+          "type": "object"
+        },
+        {}
+      ]
+    },
+    "p44": {
+      "allOf": [
+        {
+          "type": "object"
+        },
+        {}
+      ]
+    },
+    "p45": {
+      "allOf": [
+        {
+          "type": "object"
+        },
+        {}
+      ]
+    },
+    "p46": {
+      "allOf": [
+        {
+          "type": "object"
+        },
+        {}
+      ]
+    },
+    "p47": {
+      "allOf": [
+        {
+          "type": "object"
+        },
+        {}
+      ]
+    },
+    "p48": {
+      "allOf": [
+        {
+          "type": "object"
+        },
+        {}
+      ]
+    },
+    "p49": {
+      "allOf": [
+        {
+          "type": "object"
+        },
+        {}
+      ]
+    },
+    "p5": {
+      "allOf": [
+        {
+          "type": "object"
+        },
+        {}
+      ]
+    },
+    "p50": {
+      "allOf": [
+        {
+          "type": "object"
+        },
+        {}
+      ]
+    },
+    "p51": {
+      "allOf": [
+        {
+          "type": "object"
+        },
+        {}
+      ]
+    },
+    "p52": {
+      "allOf": [
+        {
+          "type": "object"
+        },
+        {}
+      ]
+    },
+    "p53": {
+      "allOf": [
+        {
+          "type": "object"
+        },
+        {}
+      ]
+    },
+    "p54": {
+      "allOf": [
+        {
+          "type": "object"
+        },
+        {}
+      ]
+    },
+    "p55": {
+      "allOf": [
+        {
+          "type": "object"
+        },
+        {}
+      ]
+    },
+    "p56": {
+      "allOf": [
+        {
+          "type": "object"
+        },
+        {}
+      ]
+    },
+    "p57": {
+      "allOf": [
+        {
+          "type": "object"
+        },
+        {}
+      ]
+    },
+    "p58": {
+      "allOf": [
+        {
+          "type": "object"
+        },
+        {}
+      ]
+    },
+    "p59": {
+      "allOf": [
+        {
+          "type": "object"
+        },
+        {}
+      ]
+    },
+    "p6": {
+      "allOf": [
+        {
+          "type": "object"
+        },
+        {}
+      ]
+    },
+    "p60": {
+      "allOf": [
+        {
+          "type": "object"
+        },
+        {}
+      ]
+    },
+    "p61": {
+      "allOf": [
+        {
+          "type": "object"
+        },
+        {}
+      ]
+    },
+    "p62": {
+      "allOf": [
+        {
+          "type": "object"
+        },
+        {}
+      ]
+    },
+    "p63": {
+      "allOf": [
+        {
+          "type": "object"
+        },
+        {}
+      ]
+    },
+    "p64": {
+      "allOf": [
+        {
+          "type": "object"
+        },
+        {}
+      ]
+    },
+    "p65": {
+      "allOf": [
+        {
+          "type": "object"
+        },
+        {}
+      ]
+    },
+    "p66": {
+      "allOf": [
+        {
+          "type": "object"
+        },
+        {}
+      ]
+    },
+    "p67": {
+      "allOf": [
+        {
+          "type": "object"
+        },
+        {}
+      ]
+    },
+    "p68": {
+      "allOf": [
+        {
+          "type": "object"
+        },
+        {}
+      ]
+    },
+    "p69": {
+      "allOf": [
+        {
+          "type": "object"
+        },
+        {}
+      ]
+    },
+    "p7": {
+      "allOf": [
+        {
+          "type": "object"
+        },
+        {}
+      ]
+    },
+    "p70": {
+      "allOf": [
+        {
+          "type": "object"
+        },
+        {}
+      ]
+    },
+    "p71": {
+      "allOf": [
+        {
+          "type": "object"
+        },
+        {}
+      ]
+    },
+    "p72": {
+      "allOf": [
+        {
+          "type": "object"
+        },
+        {}
+      ]
+    },
+    "p73": {
+      "allOf": [
+        {
+          "type": "object"
+        },
+        {}
+      ]
+    },
+    "p74": {
+      "allOf": [
+        {
+          "type": "object"
+        },
+        {}
+      ]
+    },
+    "p75": {
+      "allOf": [
+        {
+          "type": "object"
+        },
+        {}
+      ]
+    },
+    "p76": {
+      "allOf": [
+        {
+          "type": "object"
+        },
+        {}
+      ]
+    },
+    "p77": {
+      "allOf": [
+        {
+          "type": "object"
+        },
+        {}
+      ]
+    },
+    "p78": {
+      "allOf": [
+        {
+          "type": "object"
+        },
+        {}
+      ]
+    },
+    "p79": {
+      "allOf": [
+        {
+          "type": "object"
+        },
+        {}
+      ]
+    },
+    "p8": {
+      "allOf": [
+        {
+          "type": "object"
+        },
+        {}
+      ]
+    },
+    "p80": {
+      "allOf": [
+        {
+          "type": "object"
+        },
+        {}
+      ]
+    },
+    "p81": {
+      "allOf": [
+        {
+          "type": "object"
+        },
+        {}
+      ]
+    },
+    "p82": {
+      "allOf": [
+        {
+          "type": "object"
+        },
+        {}
+      ]
+    },
+    "p83": {
+      "allOf": [
+        {
+          "type": "object"
+        },
+        {}
+      ]
+    },
+    "p84": {
+      "allOf": [
+        {
+          "type": "object"
+        },
+        {}
+      ]
+    },
+    "p85": {
+      "allOf": [
+        {
+          "type": "object"
+        },
+        {}
+      ]
+    },
+    "p86": {
+      "allOf": [
+        {
+          "type": "object"
+        },
+        {}
+      ]
+    },
+    "p87": {
+      "allOf": [
+        {
+          "type": "object"
+        },
+        {}
+      ]
+    },
+    "p88": {
+      "allOf": [
+        {
+          "type": "object"
+        },
+        {}
+      ]
+    },
+    "p89": {
+      "allOf": [
+        {
+          "type": "object"
+        },
+        {}
+      ]
+    },
+    "p9": {
+      "allOf": [
+        {
+          "type": "object"
+        },
+        {}
+      ]
+    },
+    "p90": {
+      "allOf": [
+        {
+          "type": "object"
+        },
+        {}
+      ]
+    },
+    "p91": {
+      "allOf": [
+        {
+          "type": "object"
+        },
+        {}
+      ]
+    },
+    "p92": {
+      "allOf": [
+        {
+          "type": "object"
+        },
+        {}
+      ]
+    },
+    "p93": {
+      "allOf": [
+        {
+          "type": "object"
+        },
+        {}
+      ]
+    },
+    "p94": {
+      "allOf": [
+        {
+          "type": "object"
+        },
+        {}
+      ]
+    },
+    "p95": {
+      "allOf": [
+        {
+          "type": "object"
+        },
+        {}
+      ]
+    },
+    "p96": {
+      "allOf": [
+        {
+          "type": "object"
+        },
+        {}
+      ]
+    },
+    "p97": {
+      "allOf": [
+        {
+          "type": "object"
+        },
+        {}
+      ]
+    },
+    "p98": {
+      "allOf": [
+        {
+          "type": "object"
+        },
+        {}
+      ]
+    },
+    "p99": {
+      "allOf": [
+        {
+          "type": "object"
+        },
+        {}
+      ]
+    }
+  },
+  "additionalProperties": false,
+  "$defs": {
+    "Leaf": {
+      "type": "object",
+      "required": [
+        "x"
+      ],
+      "properties": {
+        "x": {
+          "type": "integer"
+        }
+      },
+      "additionalProperties": false
+    }
+  }
+}

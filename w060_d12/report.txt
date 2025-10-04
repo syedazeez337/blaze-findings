@@ -1,0 +1,211 @@
+JSON Schema Compile Report
+Generated: 2025-10-04T10:22:24Z
+
+Input: ./hot_w060_d12.schema.json
+Outdir: /home/azeez/bench_hot/w060_d12
+Metaschema: ok
+
+Source:    16050 lines,   819330 bytes, objects=5109, $ref=780 (2 unique)
+Bundle:    15089 lines,   786677 bytes, objects=5109, $ref=780 (2 unique)
+
+Keyword counts (bundle):
+  allOf=720    anyOf=0      oneOf=0      not=0      if=720    then=720    else=720    depSchemas=0      unevaluatedProperties=0     
+  patterns=0      max_pattern_len=0
+
+Timings (see timings.csv for full):
+variant                      mode    real     user  sys   maxrss_kb
+baseline                     normal  0:02.75  2.64  0.09  257276
+baseline                     fast    0:02.81  2.69  0.10  257412
+no-conditionals              normal  0:00.02  0.02  0.00  8064
+no-conditionals              fast    0:00.02  0.02  0.00  8444
+no-depschemas                normal  0:02.75  2.63  0.11  257328
+no-depschemas                fast    0:02.79  2.66  0.11  257340
+no-uneval                    normal  0:02.75  2.63  0.10  257172
+no-uneval                    fast    0:02.89  2.71  0.11  257136
+refs-only                    normal  0:00.01  0.00  0.00  6572
+refs-only                    fast    0:00.00  0.00  0.00  6384
+only-allof                   normal  0:00.02  0.02  0.00  7996
+only-allof                   fast    0:00.03  0.02  0.00  8060
+no-anyof                     normal  0:02.83  2.70  0.11  257168
+no-anyof                     fast    0:02.82  2.69  0.11  256992
+no-oneof                     normal  0:02.79  2.67  0.10  257404
+no-oneof                     fast    0:02.81  2.69  0.10  257244
+no-allof                     normal  0:00.00  0.00  0.00  6700
+no-allof                     fast    0:00.00  0.00  0.00  6792
+conditionals-empty           normal  0:02.77  2.64  0.12  257364
+conditionals-empty           fast    0:02.81  2.67  0.12  257208
+no-refs-inside-conditionals  normal  0:02.77  2.66  0.10  257400
+no-refs-inside-conditionals  fast    0:02.78  2.66  0.11  257364
+no-conditional-keys          normal  0:02.77  2.66  0.09  257392
+no-conditional-keys          fast    0:02.78  2.66  0.10  257168
+
+Per-variant structural counts
+
+=== hot_w060_d12.schema.bundle.json ===
+objects: 5109
+
+$ref:    780
+allOf:               720
+oneOf:               0
+anyOf:               0
+not:                 0
+if:                  720
+then:                720
+else:                720
+dependentSchemas:    0
+unevaluatedProperties: 0
+
+=== hot_w060_d12.schema.no-conditionals.json ===
+objects: 189
+
+$ref:    0
+allOf:               60
+oneOf:               0
+anyOf:               0
+not:                 0
+if:                  0
+then:                0
+else:                0
+dependentSchemas:    0
+unevaluatedProperties: 0
+
+=== hot_w060_d12.schema.no-depschemas.json ===
+objects: 5109
+
+$ref:    780
+allOf:               720
+oneOf:               0
+anyOf:               0
+not:                 0
+if:                  720
+then:                720
+else:                720
+dependentSchemas:    0
+unevaluatedProperties: 0
+
+=== hot_w060_d12.schema.no-uneval.json ===
+objects: 5109
+
+$ref:    780
+allOf:               720
+oneOf:               0
+anyOf:               0
+not:                 0
+if:                  720
+then:                720
+else:                720
+dependentSchemas:    0
+unevaluatedProperties: 0
+
+=== hot_w060_d12.schema.refs-only.json ===
+objects: 69
+
+$ref:    0
+allOf:               0
+oneOf:               0
+anyOf:               0
+not:                 0
+if:                  0
+then:                0
+else:                0
+dependentSchemas:    0
+unevaluatedProperties: 0
+
+=== hot_w060_d12.schema.only-allof.json ===
+objects: 189
+
+$ref:    0
+allOf:               60
+oneOf:               0
+anyOf:               0
+not:                 0
+if:                  0
+then:                0
+else:                0
+dependentSchemas:    0
+unevaluatedProperties: 0
+
+=== hot_w060_d12.schema.no-anyof.json ===
+objects: 5109
+
+$ref:    780
+allOf:               720
+oneOf:               0
+anyOf:               0
+not:                 0
+if:                  720
+then:                720
+else:                720
+dependentSchemas:    0
+unevaluatedProperties: 0
+
+=== hot_w060_d12.schema.no-oneof.json ===
+objects: 5109
+
+$ref:    780
+allOf:               720
+oneOf:               0
+anyOf:               0
+not:                 0
+if:                  720
+then:                720
+else:                720
+dependentSchemas:    0
+unevaluatedProperties: 0
+
+=== hot_w060_d12.schema.no-allof.json ===
+objects: 69
+
+$ref:    0
+allOf:               0
+oneOf:               0
+anyOf:               0
+not:                 0
+if:                  0
+then:                0
+else:                0
+dependentSchemas:    0
+unevaluatedProperties: 0
+
+=== hot_w060_d12.schema.conditionals-empty.json ===
+objects: 5109
+
+$ref:    780
+allOf:               720
+oneOf:               0
+anyOf:               0
+not:                 0
+if:                  720
+then:                720
+else:                720
+dependentSchemas:    0
+unevaluatedProperties: 0
+
+=== hot_w060_d12.schema.no-refs-inside-conditionals.json ===
+objects: 5109
+
+$ref:    780
+allOf:               720
+oneOf:               0
+anyOf:               0
+not:                 0
+if:                  720
+then:                720
+else:                720
+dependentSchemas:    0
+unevaluatedProperties: 0
+
+=== hot_w060_d12.schema.no-conditional-keys.json ===
+objects: 5109
+
+$ref:    780
+allOf:               720
+oneOf:               0
+anyOf:               0
+not:                 0
+if:                  720
+then:                720
+else:                720
+dependentSchemas:    0
+unevaluatedProperties: 0
+

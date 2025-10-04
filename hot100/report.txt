@@ -1,0 +1,211 @@
+JSON Schema Compile Report
+Generated: 2025-10-04T09:53:27Z
+
+Input: ./hot100.schema.json
+Outdir: /home/azeez/bench_hot/hot100
+Metaschema: ok
+
+Source:     3122 lines,    60782 bytes, objects=1006, $ref=100 (1 unique)
+Bundle:     2920 lines,    58168 bytes, objects=1006, $ref=100 (1 unique)
+
+Keyword counts (bundle):
+  allOf=100    anyOf=0      oneOf=0      not=0      if=100    then=100    else=100    depSchemas=0      unevaluatedProperties=0     
+  patterns=0      max_pattern_len=0
+
+Timings (see timings.csv for full):
+variant                      mode    real     user  sys   maxrss_kb
+baseline                     normal  0:00.15  0.14  0.00  22000
+baseline                     fast    0:00.14  0.13  0.00  21964
+no-conditionals              normal  0:00.02  0.02  0.00  9340
+no-conditionals              fast    0:00.02  0.02  0.00  9312
+no-depschemas                normal  0:00.15  0.14  0.00  22076
+no-depschemas                fast    0:00.14  0.13  0.00  22020
+no-uneval                    normal  0:00.15  0.14  0.00  21808
+no-uneval                    fast    0:00.14  0.13  0.00  22060
+refs-only                    normal  0:00.00  0.00  0.00  6828
+refs-only                    fast    0:00.00  0.00  0.00  6692
+only-allof                   normal  0:00.02  0.02  0.00  9648
+only-allof                   fast    0:00.02  0.02  0.00  9216
+no-anyof                     normal  0:00.15  0.14  0.00  21912
+no-anyof                     fast    0:00.14  0.13  0.00  21868
+no-oneof                     normal  0:00.15  0.14  0.00  21984
+no-oneof                     fast    0:00.14  0.13  0.00  22032
+no-allof                     normal  0:00.00  0.00  0.00  6652
+no-allof                     fast    0:00.00  0.00  0.00  6640
+conditionals-empty           normal  0:00.15  0.14  0.00  22052
+conditionals-empty           fast    0:00.14  0.13  0.00  22028
+no-refs-inside-conditionals  normal  0:00.15  0.14  0.00  22036
+no-refs-inside-conditionals  fast    0:00.14  0.13  0.00  21896
+no-conditional-keys          normal  0:00.15  0.14  0.00  21944
+no-conditional-keys          fast    0:00.14  0.13  0.00  21992
+
+Per-variant structural counts
+
+=== hot100.schema.bundle.json ===
+objects: 1006
+
+$ref:    100
+allOf:               100
+oneOf:               0
+anyOf:               0
+not:                 0
+if:                  100
+then:                100
+else:                100
+dependentSchemas:    0
+unevaluatedProperties: 0
+
+=== hot100.schema.no-conditionals.json ===
+objects: 306
+
+$ref:    0
+allOf:               100
+oneOf:               0
+anyOf:               0
+not:                 0
+if:                  0
+then:                0
+else:                0
+dependentSchemas:    0
+unevaluatedProperties: 0
+
+=== hot100.schema.no-depschemas.json ===
+objects: 1006
+
+$ref:    100
+allOf:               100
+oneOf:               0
+anyOf:               0
+not:                 0
+if:                  100
+then:                100
+else:                100
+dependentSchemas:    0
+unevaluatedProperties: 0
+
+=== hot100.schema.no-uneval.json ===
+objects: 1006
+
+$ref:    100
+allOf:               100
+oneOf:               0
+anyOf:               0
+not:                 0
+if:                  100
+then:                100
+else:                100
+dependentSchemas:    0
+unevaluatedProperties: 0
+
+=== hot100.schema.refs-only.json ===
+objects: 106
+
+$ref:    0
+allOf:               0
+oneOf:               0
+anyOf:               0
+not:                 0
+if:                  0
+then:                0
+else:                0
+dependentSchemas:    0
+unevaluatedProperties: 0
+
+=== hot100.schema.only-allof.json ===
+objects: 306
+
+$ref:    0
+allOf:               100
+oneOf:               0
+anyOf:               0
+not:                 0
+if:                  0
+then:                0
+else:                0
+dependentSchemas:    0
+unevaluatedProperties: 0
+
+=== hot100.schema.no-anyof.json ===
+objects: 1006
+
+$ref:    100
+allOf:               100
+oneOf:               0
+anyOf:               0
+not:                 0
+if:                  100
+then:                100
+else:                100
+dependentSchemas:    0
+unevaluatedProperties: 0
+
+=== hot100.schema.no-oneof.json ===
+objects: 1006
+
+$ref:    100
+allOf:               100
+oneOf:               0
+anyOf:               0
+not:                 0
+if:                  100
+then:                100
+else:                100
+dependentSchemas:    0
+unevaluatedProperties: 0
+
+=== hot100.schema.no-allof.json ===
+objects: 106
+
+$ref:    0
+allOf:               0
+oneOf:               0
+anyOf:               0
+not:                 0
+if:                  0
+then:                0
+else:                0
+dependentSchemas:    0
+unevaluatedProperties: 0
+
+=== hot100.schema.conditionals-empty.json ===
+objects: 1006
+
+$ref:    100
+allOf:               100
+oneOf:               0
+anyOf:               0
+not:                 0
+if:                  100
+then:                100
+else:                100
+dependentSchemas:    0
+unevaluatedProperties: 0
+
+=== hot100.schema.no-refs-inside-conditionals.json ===
+objects: 1006
+
+$ref:    100
+allOf:               100
+oneOf:               0
+anyOf:               0
+not:                 0
+if:                  100
+then:                100
+else:                100
+dependentSchemas:    0
+unevaluatedProperties: 0
+
+=== hot100.schema.no-conditional-keys.json ===
+objects: 1006
+
+$ref:    100
+allOf:               100
+oneOf:               0
+anyOf:               0
+not:                 0
+if:                  100
+then:                100
+else:                100
+dependentSchemas:    0
+unevaluatedProperties: 0
+
